@@ -3,12 +3,12 @@
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/pt-sans-v17-latin-regular.eot'); /* IE9 Compat Modes */
-  src: url('./assets/fonts/pt-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./assets/fonts/pt-sans-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./assets/fonts/pt-sans-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('./assets/fonts/pt-sans-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('./assets/fonts/pt-sans-v17-latin-regular.svg#PTSans') format('svg'); /* Legacy iOS */
+  src: url('./assets/fonts/pt-sans-v17-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/pt-sans-v17-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/pt-sans-v17-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/fonts/pt-sans-v17-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/pt-sans-v17-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./assets/fonts/pt-sans-v17-latin_cyrillic-regular.svg#PTSans') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
@@ -16,12 +16,25 @@
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('./assets/fonts/pt-sans-v17-latin-700.eot'); /* IE9 Compat Modes */
-  src: url('./assets/fonts/pt-sans-v17-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./assets/fonts/pt-sans-v17-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./assets/fonts/pt-sans-v17-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('./assets/fonts/pt-sans-v17-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('./assets/fonts/pt-sans-v17-latin-700.svg#PTSans') format('svg'); /* Legacy iOS */
+  src: url('./assets/fonts/pt-sans-v17-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/pt-sans-v17-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/pt-sans-v17-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/fonts/pt-sans-v17-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/pt-sans-v17-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./assets/fonts/pt-sans-v17-latin_cyrillic-700.svg#PTSans') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/bebas-neue-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./assets/fonts/bebas-neue-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/bebas-neue-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./assets/fonts/bebas-neue-v9-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
 }
 
 *,
@@ -34,10 +47,7 @@
 }
 
 body {  
-  background-color: #E5E5E5;
-  font-family: 'PT Sans';
-}
-
-p {
+  background-color: #E5E5E5; 
+  font-family: 'PT Sans'; 
   color: #42567A;
 }
